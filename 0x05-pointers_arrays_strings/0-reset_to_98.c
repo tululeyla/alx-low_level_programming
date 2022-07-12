@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * reset_to_98- it reset to 98
  * @n: checked
