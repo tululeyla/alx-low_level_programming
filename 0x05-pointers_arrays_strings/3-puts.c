@@ -1,3 +1,5 @@
+#include "holberton.h"
+
 /**
  * _puts- prints out to stdout with new line
  * @str: checked
