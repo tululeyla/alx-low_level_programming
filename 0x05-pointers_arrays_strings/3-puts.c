@@ -4,23 +4,13 @@
  * Return:nothing
  */
 void _puts(char *str)
-
 {
-
-		if (str)
-
-				{
-
-							while (*str)
-
+if (str)
+{
+	while (*str)
 										{
-
-														_putchar(*str++);
-
-																}
-
-								}
-
-			_putchar('\n');
-
+											_putchar(*str++);
+										}
+}
+   _putchar('\n');
 }
