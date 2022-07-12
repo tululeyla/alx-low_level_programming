@@ -1,23 +1,22 @@
 /**
- * _puts - prints string
- *  @str: input string
- *   Return: no return
+ * _puts- prints out to stdout with new line
+ * @str: checked
+ * Return:nothing
  */
-
 void _puts(char *str)
 
 {
 
-		while (*str != '\0')
+		if (str)
+	{
+			while (*str)
+		{
+				_putchar(*str++);
 
-				{
+		}
 
-							_putchar(*str);
+	}
 
-									str++;
-
-										}
-
-			_putchar('\n');
+	_putchar('\n');
 
 }
