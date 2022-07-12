@@ -3,20 +3,13 @@
  * @str: checked
  * Return:nothing
  */
+
 void _puts(char *str)
-
 {
-
-		if (str)
-	{
-			while (*str)
-		{
-				_putchar(*str++);
-
-		}
-
-	}
-
+while (*str != '\0')
+{
+	_putchar(*str);
+	str++;
+}
 	_putchar('\n');
-
 }
