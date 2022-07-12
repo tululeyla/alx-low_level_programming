@@ -1,7 +1,13 @@
-#include "main.h"
-#include <stdio.h>
-void reset_to_98(int *n)
-{                                                                                                                                                                                                                                             
-*n=98;
+#include "holberton.h"
 
+/**
+ * reset_to_98- it reset to 98
+ * @n: checked
+ * Return: nothing
+ */
+void reset_to_98(int *n)
+{
+	int *ptr;
+	ptr = n;
+	*ptr = 98;
 }
