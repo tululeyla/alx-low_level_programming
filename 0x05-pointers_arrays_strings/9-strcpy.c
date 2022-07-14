@@ -4,7 +4,7 @@
  * @src: poiter
  * Return: numbers dest
  */
-char *_strcpy(char *dest, char *src)
+char *strcpy(char *dest, char *src)
 {
 int i;
 for (i = 0; src[i] != '\0'; i++)
