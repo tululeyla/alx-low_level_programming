@@ -13,7 +13,7 @@ int main(void)
 	while (digit <=9) 
 	{
 		putchar(digit);
-		putchar(,);
+		putchar(',');
 		++digit;
 	}
 	return (0);
